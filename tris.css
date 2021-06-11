@@ -1,0 +1,192 @@
+/* CSS per popup iniziale */
+.enterNameContainer {
+    display: none;
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.enterNameContent {
+    position: absolute;
+    top:50%; 
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    width: 400px;
+    height: 150px;
+    background-image: linear-gradient(to top, #e4e680 0%, #fffc5c 50%, #fffb00 100%);
+    border-radius: 10px;
+    border: solid black 3px
+ }
+
+.enterName {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    margin-left: -100px;
+}
+
+.text {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.okButton {
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+}
+
+.okButton:hover {
+    cursor: pointer;
+}
+
+
+/* CSS per Popup finale */
+.restartButton {
+    position: absolute;
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    top: 70%;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    color: black
+}
+
+.restartButton:hover {
+    cursor: pointer;
+}
+
+.finalText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+    color: rgb(255, 230, 0);
+    margin-top: 20%;
+    text-shadow: 3px 0 0 #000, -3px 0 0 #000, 0 3px 0 #000, 0 -3px 0 #000, 2px 2px #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+    text-align: center;
+}
+
+
+/* CSS per il resto */
+body{
+    background-color: rgb(255, 230, 0);
+}
+
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /*divide in 3 frazioni*/
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.imageO {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+
+.immagineDinamica .image{
+    opacity: 1;
+}
+
+.box:hover .image{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.box1 {
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+.box2 {
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+}
+
+.box3 {
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+.box4 {
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+}
+
+.box5 {
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border: solid black 2px;
+}
+
+.box6 {
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+.box7 {
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+}
+
+.box8 {
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
+
+.box9 {
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+}
